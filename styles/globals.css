@@ -10,4 +10,12 @@
   h1 {
     @apply text-4xl font-bold;
   }
+
+  .nav-link {
+    @apply text-xl relative font-bold my-3 transition-all text-slate-100;
+  }
+
+  .nav-link:hover {
+    @apply transition-all scale-110 text-white;
+  }
 }
