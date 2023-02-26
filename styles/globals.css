@@ -19,3 +19,7 @@
     @apply transition-all scale-110 text-white;
   }
 }
+
+.parallax {
+  background-image: url(../public/food\ dishes.jpg);
+}
