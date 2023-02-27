@@ -1,8 +1,6 @@
 import '../styles/globals.css';
 import type { AppProps } from 'next/app';
-import Image from 'next/image';
 import Link from 'next/link';
-import logo from '../public/la buca.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 

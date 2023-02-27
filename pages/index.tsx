@@ -1,5 +1,5 @@
-import logo from "../public/la buca.png";
-import Image from "next/image";
+import Map from "@/components/Map";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -26,8 +26,11 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div>
-
+        <div className="my-6">
+          <div className="h-[300px]">
+            <Map />
+          </div>
+          <Link href="https://www.google.com/maps/dir//''/@45.5235634,-122.7071369,12z/data=!4m9!4m8!1m0!1m5!1m1!1s0x5495a0bf3c5ffd61:0x5f17c2164bd045bf!2m2!1d-122.6371189!2d45.52348!3e3" className="text-center underline font-bold text-lg block my-4">Come visit us!<br />40 NE 28th Ave, Portland, OR 97232</Link>
         </div>
       </section>
     </article>
