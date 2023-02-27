@@ -14,7 +14,7 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <header className='bg-slate-800 flex justify-between align-middle p-4 relative shadow-lg'>
+      <header className='bg-slate-800 flex justify-between align-middle p-4 relative shadow-lg z-10'>
         <Link href="/">
           <Image src={logo} alt="la buca" />
         </Link>

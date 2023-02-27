@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,10 +7,11 @@
 @layer components {
   html {
     @apply text-white bg-stone-700;
+    font-family: 'Courier Prime', monospace;
   }
 
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-5xl font-bold;
   }
 
   .nav-link {
