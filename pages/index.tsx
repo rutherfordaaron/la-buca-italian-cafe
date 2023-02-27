@@ -11,8 +11,24 @@ const Home = () => {
           <p className="text-lg font-bold">Serving generous portions of italian classics.</p>
         </div>
       </section>
-      <section className="bg-slate-800 h-screen relative">
-        <h2>Test</h2>
+      <section className="bg-slate-800 p-4 relative">
+        <div>
+          <h2 className="text-center">Hours</h2>
+          <div className="flex gap-3 justify-center">
+            <div className="flex flex-col justify-between">
+              <p className="text-right my-1 text-lg"><span className="font-bold">Monday</span>: 5:00 pm - 9:00 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Tuesday</span>: 5:00 pm - 9:00 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Wednesday</span>: 5:00 pm - 9:00 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Thursday</span>: 5:00 pm - 9:00 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Friday</span>: 5:00 pm - 10:00 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Saturday</span>: 5:00 pm - 9:30 pm</p>
+              <p className="text-right my-1 text-lg"><span className="font-bold">Sunday</span>: 5:00 pm - 9:00 pm</p>
+            </div>
+          </div>
+        </div>
+        <div>
+
+        </div>
       </section>
     </article>
   )

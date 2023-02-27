@@ -14,6 +14,10 @@
     @apply text-5xl font-bold;
   }
 
+  h2 {
+    @apply text-4xl font-bold;
+  }
+
   .nav-link {
     @apply text-xl relative font-bold my-3 transition-all text-slate-100;
   }
