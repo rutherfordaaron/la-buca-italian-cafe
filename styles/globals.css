@@ -19,7 +19,7 @@
   }
 
   .nav-link {
-    @apply text-xl relative font-bold my-3 transition-all text-slate-100;
+    @apply text-xl relative font-bold my-3 transition-all text-slate-100 origin-right;
   }
 
   .nav-link:hover {
