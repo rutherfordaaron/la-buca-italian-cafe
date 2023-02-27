@@ -3,6 +3,7 @@ import type { AppProps } from 'next/app';
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function App({ Component, pageProps }: AppProps) {
   const toggleNav = () => {
@@ -26,8 +27,24 @@ export default function App({ Component, pageProps }: AppProps) {
       <main>
         <Component {...pageProps} />
       </main>
-      <footer>
-
-      </footer></>
+      <footer className='bg-gray-600 relative p-5 flex flex-col gap-8 justify-between items-center'>
+        <div className='flex gap-8'>
+          <Link href="/menu" className="underline text-lg">Menu</Link>
+          <Link href="/contact" className="underline text-lg">Contact</Link>
+          <Link href="/Catering" className="underline text-lg">Catering</Link>
+        </div>
+        <div className='flex gap-8'>
+          <div className='text-5xl'>
+            <Link href="https://www.facebook.com/LaBucaEast"><FontAwesomeIcon icon={faFacebook} /></Link>
+          </div>
+          <div className='text-5xl'>
+            <Link href="https://twitter.com/labucapdx"><FontAwesomeIcon icon={faTwitter} /></Link>
+          </div>
+          <div className='text-5xl'>
+            <Link href="https://www.instagram.com/labucapdx/"><FontAwesomeIcon icon={faInstagram} /></Link>
+          </div>
+        </div>
+      </footer>
+    </>
   )
 }
