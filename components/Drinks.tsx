@@ -116,12 +116,89 @@ const Drinks = () => {
 
       {/* ---------- Vino Rosso ---------- */}
       <h3 className="">Vino Rosso</h3>
+      <MenuItem
+        name="Vandori"
+        description="cabernet sauvignon, italy nv"
+        price={[8, 26]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="San Giorgio"
+        description="sangiovese di publia, italy '20"
+        price={[9, 33]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Casa Benasal"
+        description="tinto garnacha, spain '20"
+        price={[9, 33]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Travignoli"
+        description="chianti, italy '21"
+        price={[10, 37]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Barone Cornacchia"
+        description="montepulciano d'abruzzo, italy '19"
+        price={[10, 37]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Throw Back"
+        description="cabernet sauvignon, columbia valley '19"
+        price={[11, 41]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Loosen Christopher"
+        description="jj pinot noir, willamette valley '19"
+        price={[13, 46]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Bodegas Ontañon"
+        description="tempranillo garnacha, rioja, spain '18"
+        price={[0, 39]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Inama"
+        description="piu, camenere, italy '19"
+        price={[0, 44]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="La Valentina"
+        description="spelt, montepulciano d'abruzzo, italy '17"
+        price={[0, 44]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Vietti"
+        description="dolcetto d'alba, italy '20"
+        price={[0, 44]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
 
       {/* ---------- Beer on Tap ---------- */}
       <h3 className="">Beer on Tap</h3>
 
       {/* ---------- Bottled Beer & Cider ---------- */}
-      <h3 className="text-lg">Bottled Beer & Cider</h3>
+      <h3 className="">Bottled Beer & Cider</h3>
 
       {/* ---------- Non-Alcoholic Beverages ---------- */}
       <h3 className="">Non-Alcoholic Beverages</h3>
