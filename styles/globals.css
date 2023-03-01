@@ -6,7 +6,7 @@
 
 @layer components {
   html {
-    @apply text-white bg-stone-700;
+    @apply text-white bg-slate-700;
     font-family: 'Courier Prime', monospace;
   }
 
