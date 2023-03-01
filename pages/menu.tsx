@@ -103,7 +103,56 @@ const Menu = () => {
               tags={[Tag.v]}
             />
 
-            <h3 className="">insalate, zuppa, & contorni</h3>
+            {/* ---------- Insalate, Zuppa, & Contorni ---------- */}
+            <h3 className="">Insalate, Zuppa, & Contorni</h3>
+            <MenuItem
+              name="Zuppa del Giorno"
+              description=""
+              price={[8, 10]}
+              sizes={["cup", "bowl"]}
+              tags={[]}
+            />
+            <MenuItem
+              name="Verdi"
+              description="mixed greens and red onion tossed with olive oil and balsamic vinegar"
+              price={[9, 13]}
+              sizes={["small", "large"]}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Spinaci"
+              description="baby spinach with tomatoes, lives and feta, lemon-infused olive oil and balsamic"
+              price={[10, 14]}
+              sizes={["small", "large"]}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Casesar"
+              description="romaine lettuce and croutons with an anchovy, garlic, lemon, parmesan aioli"
+              price={[10, 14]}
+              sizes={["small", "large"]}
+              tags={[]}
+            />
+            <MenuItem
+              name="Gorgonzola"
+              description="romaine lettuce, apple roasted walnuts, creamy gorgonzola dressing"
+              price={[10, 14]}
+              sizes={["small", "large"]}
+              tags={[Tag.gf, Tag.v]}
+            />
+            <MenuItem
+              name="Mashed Potatoes"
+              description="topped with basil pesto"
+              price={8}
+              tags={[Tag.gf, Tag.v]}
+            />
+            <MenuItem
+              name="Sautè"
+              description="broccoli or seasonal vegetables with olive oil, garlic 
+              & lemon"
+              price={9}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
 
             <h3 className="">pasta</h3>
 
