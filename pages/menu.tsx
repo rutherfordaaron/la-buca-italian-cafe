@@ -244,6 +244,75 @@ const Menu = () => {
 
             {/* ---------- Additions ---------- */}
             <h3 className="">Additions</h3>
+            <p className="italic text-slate-400">May be added to any of our menu items.</p>
+            <div className="md:grid md:grid-cols-2 md:gap-5">
+              <MenuItem
+                name="Add 8oz bavette steak*"
+                description=""
+                price={13}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add roasted chicken breast"
+                description=""
+                price={7}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add salmon*"
+                description=""
+                price={9}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add prawns*"
+                description=""
+                price={9}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add spicy italian sausage"
+                description=""
+                price={7}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add spicy meat balls"
+                description=""
+                price={8}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add prosciutto"
+                description=""
+                price={4}
+                tags={[]}
+              />
+              <MenuItem
+                name="Add broccoli or seasonal veggies"
+                description=""
+                price={6}
+                tags={[Tag.gf, Tag.v, Tag.vegan]}
+              />
+              <MenuItem
+                name="Add fresh mozzarella"
+                description=""
+                price={4}
+                tags={[Tag.gf, Tag.v]}
+              />
+              <MenuItem
+                name="Substitute gnocchi or cheese ravioli"
+                description=""
+                price={4}
+                tags={[Tag.v]}
+              />
+              <MenuItem
+                name="Substitute gluten free penne"
+                description=""
+                price={4}
+                tags={[Tag.gf, Tag.v, Tag.vegan]}
+              />
+            </div>
           </section>
         )
     }
