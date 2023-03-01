@@ -24,6 +24,12 @@ const MenuItem = (props: { name: string, description: string, tags: Tag[], price
       return (
         <p className="text-slate-300 font-bold">${price}</p>
       )
+    } else if (props.sizes && price[0] === 0) {
+      return (
+        <div className="flex flex-col justify-center items-end text-sm min-w-[85px]">
+          <p className="text-slate-300 font-bold"><span className="italic">{props.sizes[1]}</span> ${price[1]}</p>
+        </div>
+      )
     } else if (props.sizes) {
       return (
         <div className="flex flex-col justify-center items-end text-sm min-w-[85px]">

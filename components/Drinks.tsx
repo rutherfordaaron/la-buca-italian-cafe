@@ -55,8 +55,64 @@ const Drinks = () => {
         tags={[]}
       />
 
-      {/* ---------- Vino Vianco ---------- */}
-      <h3 className="">Vino Vianco</h3>
+      {/* ---------- Vino Bianco ---------- */}
+      <h3 className="">Vino Bianco</h3>
+      <MenuItem
+        name="Vandori"
+        description="pinot grigio, italy nv"
+        price={[8, 26]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Farina"
+        description="chiaretto bardolino, italy '21"
+        price={[9, 33]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Sun Garden"
+        description="riesling, germany '20"
+        price={[9, 33]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Franco Serra"
+        description="bianco (chardonnay/cortese), piemonte, italy '21"
+        price={[9, 33]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Riff"
+        description="pinot grigio, venezie, italy '21"
+        price={[10, 37]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Cooper Mountain"
+        description="organic pinot gris, willamette valley '21"
+        price={[11, 41]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="La Bella"
+        description="prosecco, friulani, italy nv"
+        price={[0, 10]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Moncalvina"
+        description="moscato d'asti, italy '19"
+        price={[0, 35]}
+        sizes={["glass", "bottle"]}
+        tags={[]}
+      />
 
       {/* ---------- Vino Rosso ---------- */}
       <h3 className="">Vino Rosso</h3>
