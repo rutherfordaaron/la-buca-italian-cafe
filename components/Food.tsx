@@ -1,5 +1,5 @@
 import MenuItem from "./MenuItem";
-import { Tag } from "./MenuItem";
+import { Tag, symbols } from "./MenuItem";
 
 const Food = () => {
   return (
@@ -278,6 +278,22 @@ const Food = () => {
           price={4}
           tags={[Tag.gf, Tag.v, Tag.vegan]}
         />
+      </div>
+      <hr />
+      <div className="mt-6 flex flex-col gap-4">
+        <p>*Consuming raw or undercooked seafood, eggs, or meat may increase you risk of foodborn illness.</p>
+        <div className="flex gap-3">
+          {symbols["GLUTEN FREE"]}
+          <p>Gluten Free</p>
+        </div>
+        <div className="flex gap-3">
+          {symbols.VEGETARIAN}
+          <p>Vegetarian</p>
+        </div>
+        <div className="flex gap-3">
+          {symbols.VEGAN}
+          <p>Vegan</p>
+        </div>
       </div>
     </section>
   )

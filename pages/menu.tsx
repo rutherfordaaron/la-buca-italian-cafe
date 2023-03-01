@@ -59,6 +59,11 @@ const Menu = () => {
       </div>
       <article>
         {getPage()}
+        <div className="p-4 flex flex-col gap-4 italic">
+          <p>20% service charge will be added to parties of five or more.</p>
+          <p>Limit of two forms of payment per table.</p>
+          <p>20% service charge will be added to take out orders.</p>
+        </div>
       </article>
     </>
   )
