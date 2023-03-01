@@ -267,6 +267,78 @@ const Drinks = () => {
 
       {/* ---------- Non-Alcoholic Beverages ---------- */}
       <h3 className="">Non-Alcoholic Beverages</h3>
+      <MenuItem
+        name="San Pellegrino"
+        description="sparkling mineral water"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Fountain Soda"
+        description=""
+        price={3.5}
+        tags={[]}
+      />
+      <MenuItem
+        name="San Pellegrino"
+        description="aranciata or limonata"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Lemonade"
+        description="made in house"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="GT's Kombucha"
+        description="trilogy"
+        price={6}
+        tags={[]}
+      />
+      <MenuItem
+        name="Cock & Bull"
+        description="ginger beer"
+        price={5}
+        tags={[]}
+      />
+      <MenuItem
+        name="Hot Tea"
+        description=""
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Groundwork"
+        description="coffee"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Groundwork"
+        description="iced tea"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Martinelli's"
+        description="apple juice"
+        price={4}
+        tags={[]}
+      />
+      <MenuItem
+        name="Hot Chocolate"
+        description="with marshmallows"
+        price={5}
+        tags={[]}
+      />
+      <MenuItem
+        name="Milk"
+        description=""
+        price={3.5}
+        tags={[]}
+      />
     </section>
   )
 }
