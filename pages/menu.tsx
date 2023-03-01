@@ -46,19 +46,61 @@ const Menu = () => {
           <section className="min-h-screen p-5">
             <h2 className="text-center text-4xl">Food</h2>
             <hr className="font-bold mb-5" />
-
-            <h3 className="">primi</h3>
+            {/* ---------- PRIMI ---------- */}
+            <h3 className="">Primi</h3>
             <MenuItem
-              name="seasonal pickled vegetables"
+              name="Seasonal Pickled Vegetables"
               description=""
               price={7}
               tags={[Tag.gf, Tag.v, Tag.vegan]}
             />
             <MenuItem
-              name="mediterranean olives"
+              name="Mediterranean Olives"
               description="marinated in lemon garlic olve oil"
               price={8}
               tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Arancini"
+              description="stuffed with bolognese & fontina cheese served over marninara"
+              price={9}
+              tags={[]}
+            />
+            <MenuItem
+              name="Carciofi"
+              description="artichoke, pomodoraccio tomato, herb and olive oil"
+              price={8}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Polpette"
+              description="grilled baguett, spicy meatballs, marinara, smoked mozzarella"
+              price={12}
+              tags={[]}
+            />
+            <MenuItem
+              name="Calamari"
+              description="lightly dusted and fried, served with roasted pepper aioli*"
+              price={15}
+              tags={[]}
+            />
+            <MenuItem
+              name="Olive Bruschetta"
+              description="kalamata olive tapenade"
+              price={11}
+              tags={[Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Pomodoro Bruschetta"
+              description="tomato & roasted garlic"
+              price={11}
+              tags={[Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Caprese Bruschetta"
+              description="tomato, fresh mozzarella & basil"
+              price={12}
+              tags={[Tag.v]}
             />
 
             <h3 className="">insalate, zuppa, & contorni</h3>
