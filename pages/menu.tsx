@@ -154,11 +154,80 @@ const Menu = () => {
               tags={[Tag.gf, Tag.v, Tag.vegan]}
             />
 
-            <h3 className="">pasta</h3>
+            {/* ---------- Pasta ---------- */}
+            <h3 className="">Pasta</h3>
+            <MenuItem
+              name="Alfredo"
+              description="linguinie tossed in a roasted garlic and parmesan cream sauce"
+              price={17}
+              tags={[Tag.v]}
+            />
+            <MenuItem
+              name="Pomodoro"
+              description="spaghetti tossed with a fresh basil and garlic tomato sauce"
+              price={14}
+              tags={[Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Pesto Basilica"
+              description="linguine, fresh basil, pine nutes, walnuts, garlic, parmesan, olive oil"
+              price={18}
+              tags={[Tag.v]}
+            />
+            <MenuItem
+              name="Bolognese"
+              description="spaghetti with a heary beef & pork ragu"
+              price={19}
+              tags={[]}
+            />
+            <MenuItem
+              name="Puttanesca"
+              description="penne, roma tomatoes, olives, capers, garlic, red pepper, and a hint of anchovy"
+              price={17}
+              tags={[]}
+            />
+            <MenuItem
+              name="Vegetariana"
+              description="penne, roma tomatoes, broccoli, roasted yellow peppers, pine nut, garlic, lemon juice, pepper flakes, extra virgin olive oil"
+              price={18}
+              tags={[Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="Salmone Ubriaco"
+              description="spaghetti, vodka cream poached wil salmon, scallions*"
+              price={19}
+              tags={[]}
+            />
+            <MenuItem
+              name="Lasagne"
+              description="beef & pork bolognese, rictta, bèchamel, mozzarella"
+              price={18}
+              tags={[]}
+            />
+            <MenuItem
+              name="Al Forno"
+              description="baked penne, mascarpone, mozzarella, parmesan, tomato sauce"
+              price={17}
+              tags={[Tag.v]}
+            />
+            <MenuItem
+              name="Abituale"
+              description="penne, spicy italian sausage, parmesan & roasted garlic tomato cream sauce"
+              price={18}
+              tags={[]}
+            />
+            <MenuItem
+              name="Pancetta e Funghi"
+              description="penne, pancetta, mushrooms, shallots, cream"
+              price={18}
+              tags={[]}
+            />
 
-            <h3 className="">entrata</h3>
+            {/* ---------- Entrata ---------- */}
+            <h3 className="">Entrata</h3>
 
-            <h3 className="">additions</h3>
+            {/* ---------- Additions ---------- */}
+            <h3 className="">Additions</h3>
           </section>
         )
     }
