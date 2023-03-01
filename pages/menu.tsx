@@ -17,15 +17,11 @@ const Menu = () => {
       case Page.kids:
         return (
           <section className="min-h-screen p-5">
-            <h2 className="text-center text-4xl">Kids</h2>
-            <hr className="font-bold mb-5" />
           </section>
         )
       case Page.drinks:
         return (
           <section className="min-h-screen p-5">
-            <h2 className="text-center text-4xl">Drinks</h2>
-            <hr className="font-bold mb-5" />
             <h3 className="">speciale cocktails</h3>
             <h3 className="">vino vianco</h3>
             <h3 className="">vino rosso</h3>
@@ -37,15 +33,11 @@ const Menu = () => {
       case Page.desserts:
         return (
           <section className="min-h-screen p-5">
-            <h2 className="text-center text-4xl">Dessert</h2>
-            <hr className="font-bold mb-5" />
           </section>
         )
       default:
         return (
           <section className="min-h-screen p-5">
-            <h2 className="text-center text-4xl">Food</h2>
-            <hr className="font-bold mb-5" />
             {/* ---------- PRIMI ---------- */}
             <h3 className="">Primi</h3>
             <MenuItem
@@ -236,27 +228,27 @@ const Menu = () => {
     <>
       <div className="flex items-center justify-between p-5">
         <button
-          className={`transition-all ${page === Page.food ? "font-bold text-lg border-b-2" : "border-b"}`}
+          className={`transition-all ${page === Page.food ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
           onClick={e => setPage(Page.food)}
         >Food
         </button>
         <button
-          className={`transition-all ${page === Page.drinks ? "font-bold text-lg border-b-2" : "border-b"}`}
+          className={`transition-all ${page === Page.drinks ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
           onClick={e => setPage(Page.drinks)}
         >
           Drinks
         </button>
         <button
-          className={`transition-all ${page === Page.desserts ? "font-bold text-lg border-b-2" : "border-b"}`}
+          className={`transition-all ${page === Page.desserts ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
           onClick={e => setPage(Page.desserts)}
         >
           Dessert
         </button>
         <button
-          className={`transition-all ${page === Page.kids ? "font-bold text-lg border-b-2" : "border-b"}`}
+          className={`transition-all ${page === Page.kids ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
           onClick={e => setPage(Page.kids)}
         >
