@@ -6,7 +6,7 @@
 
 @layer components {
   html {
-    @apply text-white bg-stone-700;
+    @apply text-white bg-slate-700;
     font-family: 'Courier Prime', monospace;
   }
 
@@ -16,6 +16,10 @@
 
   h2 {
     @apply text-4xl font-bold;
+  }
+
+  h3 {
+    @apply text-2xl font-bold border-b italic border-slate-500;
   }
 
   .nav-link {
