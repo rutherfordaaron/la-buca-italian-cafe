@@ -196,6 +196,41 @@ const Drinks = () => {
 
       {/* ---------- Beer on Tap ---------- */}
       <h3 className="">Beer on Tap</h3>
+      <MenuItem
+        name="Upright"
+        description="engelberg pilsener, portland"
+        price={[5, 7]}
+        sizes={["glass", "pint"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Hammer and Stitch"
+        description="the weizen, portland"
+        price={[5, 7]}
+        sizes={["glass", "pint"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Double Mountain"
+        description="ira, hood river"
+        price={[5, 7]}
+        sizes={["glass", "pint"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Barely Brown's"
+        description="pallet jack ipa, baker city"
+        price={[5, 7]}
+        sizes={["glass", "pint"]}
+        tags={[]}
+      />
+      <MenuItem
+        name="Everybody's Brewing"
+        description="hazy ipa, white salmon"
+        price={[5, 7]}
+        sizes={["glass", "pint"]}
+        tags={[]}
+      />
 
       {/* ---------- Bottled Beer & Cider ---------- */}
       <h3 className="">Bottled Beer & Cider</h3>
