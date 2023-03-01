@@ -217,6 +217,30 @@ const Menu = () => {
 
             {/* ---------- Entrata ---------- */}
             <h3 className="">Entrata</h3>
+            <MenuItem
+              name="Pollo Marsala"
+              description="lighly dusted chicken medallions, marsala wine sauce, and mushrooms, served with mashed potatoes "
+              price={20}
+              tags={[]}
+            />
+            <MenuItem
+              name="Polenta con Maiale"
+              description="slow roasted pork, caramelized onions, peas, parmesan plenta, sage chianti butter"
+              price={19}
+              tags={[Tag.gf]}
+            />
+            <MenuItem
+              name="Risotto Funghi e Verdure"
+              description="mushrooms, seasonal vegetables, parmesan"
+              price={19}
+              tags={[Tag.v]}
+            />
+            <MenuItem
+              name="Bavette Steak 8oz"
+              description="mashed potatoes, blistered tomatoes, salsa di palermo*"
+              price={26}
+              tags={[Tag.gf]}
+            />
 
             {/* ---------- Additions ---------- */}
             <h3 className="">Additions</h3>
