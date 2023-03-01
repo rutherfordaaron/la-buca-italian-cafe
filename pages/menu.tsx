@@ -226,7 +226,7 @@ const Menu = () => {
   }
   return (
     <>
-      <div className="flex items-center justify-between p-5">
+      <div className="flex items-center justify-center gap-5 p-5">
         <button
           className={`transition-all ${page === Page.food ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
