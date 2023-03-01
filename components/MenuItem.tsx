@@ -21,10 +21,10 @@ const MenuItem = (props: { name: string, description: string, tags: Tag[], price
   return (
     <div className="my-5">
       <div className="flex justify-between gap-3 items-center">
-        <p className="font-bold">{name} <span className="text-slate-300 ">{description}</span></p>
-        <p className="text-slate-300 ">${price}</p>
+        <p className="font-bold">{name} <span className="text-slate-400 font-normal">{description}</span></p>
+        <p className="text-slate-300 font-bold">${price}</p>
       </div>
-      <div className="text-slate-400 flex items-center gap-3 text-xs">
+      <div className="text-slate-500 flex items-center gap-3 text-xs">
         {tags.map((el, i) => {
           if (el !== Tag.gf) {
             return (
