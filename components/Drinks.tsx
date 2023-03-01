@@ -234,6 +234,36 @@ const Drinks = () => {
 
       {/* ---------- Bottled Beer & Cider ---------- */}
       <h3 className="">Bottled Beer & Cider</h3>
+      <MenuItem
+        name="Pabst Blue Ribbon,"
+        description="wisconsin"
+        price={6}
+        tags={[]}
+      />
+      <MenuItem
+        name="Peroni"
+        description="lager, italy"
+        price={7}
+        tags={[]}
+      />
+      <MenuItem
+        name="Pfriem Ipa,"
+        description="hoodriver (500mL)"
+        price={8}
+        tags={[]}
+      />
+      <MenuItem
+        name="Weinhenstephaner"
+        description="n/a, germany"
+        price={6}
+        tags={[]}
+      />
+      <MenuItem
+        name="Double Mountain"
+        description="dry cider (500mL)"
+        price={8}
+        tags={[]}
+      />
 
       {/* ---------- Non-Alcoholic Beverages ---------- */}
       <h3 className="">Non-Alcoholic Beverages</h3>
