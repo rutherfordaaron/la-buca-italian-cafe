@@ -1,4 +1,6 @@
 import { useState } from "react";
+import MenuItem from "@/components/MenuItem";
+import { Tag } from "@/components/MenuItem";
 
 enum Page {
   food = "FOOD",
@@ -24,12 +26,12 @@ const Menu = () => {
           <section className="min-h-screen p-5">
             <h2 className="text-center text-4xl">Drinks</h2>
             <hr className="font-bold mb-5" />
-            <h3 className="text-lg">speciale cocktails</h3>
-            <h3 className="text-lg">vino vianco</h3>
-            <h3 className="text-lg">vino rosso</h3>
-            <h3 className="text-lg">beer on tap</h3>
+            <h3 className="">speciale cocktails</h3>
+            <h3 className="">vino vianco</h3>
+            <h3 className="">vino rosso</h3>
+            <h3 className="">beer on tap</h3>
             <h3 className="text-lg">bottled beer & cider</h3>
-            <h3 className="text-lg">non-alcoholic beverages</h3>
+            <h3 className="">non-alcoholic beverages</h3>
           </section>
         )
       case Page.desserts:
@@ -44,11 +46,28 @@ const Menu = () => {
           <section className="min-h-screen p-5">
             <h2 className="text-center text-4xl">Food</h2>
             <hr className="font-bold mb-5" />
-            <h3 className="text-lg">primi</h3>
-            <h3 className="text-lg">insalate, zuppa, & contorni</h3>
-            <h3 className="text-lg">pasta</h3>
-            <h3 className="text-lg">entrata</h3>
-            <h3 className="text-lg">additions</h3>
+
+            <h3 className="">primi</h3>
+            <MenuItem
+              name="seasonal pickled vegetables"
+              description=""
+              price={7}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+            <MenuItem
+              name="mediterranean olives"
+              description="marinated in lemon garlic olve oil"
+              price={8}
+              tags={[Tag.gf, Tag.v, Tag.vegan]}
+            />
+
+            <h3 className="">insalate, zuppa, & contorni</h3>
+
+            <h3 className="">pasta</h3>
+
+            <h3 className="">entrata</h3>
+
+            <h3 className="">additions</h3>
           </section>
         )
     }
