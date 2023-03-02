@@ -211,7 +211,7 @@ const Food = () => {
       {/* ---------- Additions ---------- */}
       <h3 className="">Additions</h3>
       <p className="italic text-slate-400">May be added to any of our menu items.</p>
-      <div className="md:grid md:grid-cols-2 md:gap-5">
+      <div className="md:grid md:grid-cols-2 md:gap-x-24">
         <MenuItem
           name="Add 8oz bavette steak*"
           description=""

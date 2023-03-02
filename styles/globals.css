@@ -19,7 +19,7 @@
   }
 
   h3 {
-    @apply text-2xl font-bold border-b italic border-slate-500;
+    @apply text-3xl font-bold border-b italic border-slate-500;
   }
 
   .nav-link {
@@ -29,8 +29,15 @@
   .nav-link:hover {
     @apply transition-all scale-110 text-white;
   }
+
+  @media(min-width: 768px) {
+    .nav-link {
+      @apply origin-top;
+    }
+  }
 }
 
 .parallax {
   background-image: url(../public/food\ dishes.jpg);
+  background-size: cover;
 }
