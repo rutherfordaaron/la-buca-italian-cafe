@@ -38,7 +38,7 @@ const MenuItem = (props: { name: string, description: string, tags: Tag[], price
         </div>
       )
     } else {
-      return <div className="text-slate-300 font-bold">???</div>
+      return <div className="text-slate-300 font-bold"></div>
     }
   }
 

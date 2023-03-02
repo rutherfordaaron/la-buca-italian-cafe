@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <div className='flex gap-8'>
           <Link href="/menu" className="underline text-lg">Menu</Link>
           <Link href="/contact" className="underline text-lg">Contact</Link>
-          <Link href="/Catering" className="underline text-lg">Catering</Link>
+          <Link href="/catering" className="underline text-lg">Catering</Link>
         </div>
         <div className='flex gap-8'>
           <div className='text-5xl'>
