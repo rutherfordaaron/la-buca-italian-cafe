@@ -12,7 +12,7 @@ const center = {
 
 const Map = () => {
   return (
-    <div className="h-[90vw]">
+    <div className="h-[90vw] md:h-[400px]">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}

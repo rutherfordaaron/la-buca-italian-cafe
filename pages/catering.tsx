@@ -3,11 +3,11 @@ import Link from "next/link";
 
 const Catering = () => {
   return (
-    <article className="p-5 min-h-[75vh]">
+    <article className="p-5 min-h-[75vh] max-w-4xl mx-auto">
       <h1 className="text-center">Catering</h1>
       <p className="text-slate-400 italic">All items are shown as a serving for 12 people, but can be adjusted as needed.</p>
       <section>
-        <h2 className="text-2xl italic border-b border-slate-400 mt-5">Starters</h2>
+        <h3>Starters</h3>
         <MenuItem
           name="Assorted Seasonal Pickled Vegetables"
           description=""
@@ -41,7 +41,7 @@ const Catering = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl italic border-b border-slate-400">Insalate & Sides</h2>
+        <h3>Insalate & Sides</h3>
         <MenuItem
           name="Verdi"
           description="mixed greens tossed with olive oil and balsamic vinegar"
@@ -81,7 +81,7 @@ const Catering = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl italic border-b border-slate-400">Pasta</h2>
+        <h3>Pasta</h3>
         <MenuItem
           name="Alfredo"
           description="linguine tossed in a roasted garlic and parmesan cream sauce"
@@ -151,66 +151,68 @@ const Catering = () => {
       </section>
 
       <section>
-        <h2 className="text-2xl italic border-b border-slate-400">Additions</h2>
+        <h3>Additions</h3>
         <p className="italic text-slate-400">May be added to any of our menu items</p>
-        <MenuItem
-          name="Add roasted chicken breast"
-          description=""
-          price={77}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add spicy meat balls"
-          description=""
-          price={88}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add spicy italian sausage"
-          description=""
-          price={77}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add seasonal vegetables"
-          description=""
-          price={88}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add prawns"
-          description=""
-          price={128}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add salmon"
-          description=""
-          price={128}
-          tags={[]}
-        />
-        <MenuItem
-          name="Add broccoli"
-          description=""
-          price={88}
-          tags={[]}
-        />
-        <MenuItem
-          name="Substitute gluten free penne"
-          description=""
-          price={88}
-          tags={[]}
-        />
-        <MenuItem
-          name="Substitute gnocchi or cheese raviloli"
-          description=""
-          price={88}
-          tags={[]}
-        />
+        <div className="md:grid md:grid-cols-2 md:gap-x-24">
+          <MenuItem
+            name="Add roasted chicken breast"
+            description=""
+            price={77}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add spicy meat balls"
+            description=""
+            price={88}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add spicy italian sausage"
+            description=""
+            price={77}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add seasonal vegetables"
+            description=""
+            price={88}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add prawns"
+            description=""
+            price={128}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add salmon"
+            description=""
+            price={128}
+            tags={[]}
+          />
+          <MenuItem
+            name="Add broccoli"
+            description=""
+            price={88}
+            tags={[]}
+          />
+          <MenuItem
+            name="Substitute gluten free penne"
+            description=""
+            price={88}
+            tags={[]}
+          />
+          <MenuItem
+            name="Substitute gnocchi or cheese raviloli"
+            description=""
+            price={88}
+            tags={[]}
+          />
+        </div>
       </section>
 
       <section className="border-b border-slate-400 mb-5">
-        <h2 className="text-2xl italic border-b border-slate-400">Entree</h2>
+        <h3>Entree</h3>
         <MenuItem
           name="Polenta con Maiale"
           description="slow roasted pork with caramelized onions and peas, served on parmesan polenta in a fresh sage chianti butter sauce"

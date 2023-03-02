@@ -44,7 +44,7 @@ const MenuItem = (props: { name: string, description: string, tags: Tag[], price
 
   return (
     <div className="my-5">
-      <div className="flex justify-between gap-3 items-center">
+      <div className="flex justify-between gap-3 md:gap-16 items-center">
         <p className="font-bold">{name} <span className="text-slate-400 font-normal">{description}</span></p>
         {getPrices()}
       </div>

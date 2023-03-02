@@ -28,7 +28,8 @@ const Menu = () => {
   }
   return (
     <>
-      <div className="flex items-center justify-center gap-5 p-5">
+      <h1 className="text-center mt-8">Menu</h1>
+      <div className="flex items-center justify-center gap-10 p-5 text-lg">
         <button
           className={`transition-all ${page === Page.food ? "font-bold text-lg border-b-2" : "border-b text-slate-300"}`}
           type="button"
@@ -57,7 +58,7 @@ const Menu = () => {
           Kids
         </button>
       </div>
-      <article>
+      <article className="max-w-4xl mx-auto">
         {getPage()}
         <div className="p-4 flex flex-col gap-4 italic">
           <p>20% service charge will be added to parties of five or more.</p>
