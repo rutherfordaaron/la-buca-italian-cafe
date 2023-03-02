@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { LoadScript } from '@react-google-maps/api';
 
 export default function App({ Component, pageProps }: AppProps) {
   const toggleNav = () => {
@@ -25,7 +26,9 @@ export default function App({ Component, pageProps }: AppProps) {
         </nav>
       </header>
       <main>
-        <Component {...pageProps} />
+        <LoadScript googleMapsApiKey={"AIzaSyABGsCfvz2E6KsmLkqzewSdJJ6feKoozmk"}>
+          <Component {...pageProps} />
+        </LoadScript>
       </main>
       <footer className='bg-gray-600 relative p-5 flex flex-col gap-8 justify-between items-center'>
         <div className='flex gap-8'>
