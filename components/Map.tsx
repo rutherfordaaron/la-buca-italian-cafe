@@ -12,7 +12,7 @@ const center = {
 
 const Map = () => {
   return (
-    <LoadScript googleMapsApiKey={"AIzaSyABGsCfvz2E6KsmLkqzewSdJJ6feKoozmk"}>
+    <div className="h-[90vw]">
       <GoogleMap
         mapContainerStyle={containerStyle}
         center={center}
@@ -20,7 +20,7 @@ const Map = () => {
       >
         <Marker position={center} label="la buca" />
       </GoogleMap>
-    </LoadScript>
+    </div>
   )
 }
 
