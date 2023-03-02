@@ -5,11 +5,32 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { LoadScript } from '@react-google-maps/api';
+import { useState } from 'react';
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [listener, setListener] = useState(false);
+
   const toggleNav = () => {
     const nav = document.getElementById("nav");
-    if (nav) { nav.classList.toggle("scale-0"); nav.classList.toggle("scale-100") };
+    const body = document.querySelector("body");
+    console.log(Boolean(body && nav))
+    if (nav && body) {
+      if (!listener) {
+        console.log("no listener")
+        setListener(true);
+        nav.classList.remove("scale-0");
+        nav.classList.add("scale-100");
+        console.log(nav.classList)
+
+        setTimeout(() => {
+          body.addEventListener("click", () => {
+            nav.classList.add("scale-0")
+            nav.classList.remove("scale-100")
+            setListener(false);
+          }, { once: true })
+        }, 10)
+      }
+    }
   }
 
   return (
