@@ -38,7 +38,7 @@ const Home = () => {
       </div>
 
       <section className="bg-gradient-to-b from-slate-800 to-stone-600 relative pb-10 flex flex-col">
-        <div className="relative max-w-4xl w-screen mx-auto flex flex-col justify-between">
+        <div className="relative max-w-4xl w-screen mx-auto flex flex-col justify-between overflow-x-hidden">
           <Review
             body="The wait staff was wonderful. The food was delicious. We didn't have to wait for a table. We elected to sit outside because the weather was good. Did not feel like we were separated from the restaurant, felt like we were an extension."
             name="Michelle V"

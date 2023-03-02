@@ -38,6 +38,6 @@
 }
 
 .parallax {
-  background-image: url(../public/food\ dishes.jpg);
+  background-image: url(/food\ dishes.jpg);
   background-size: cover;
 }
